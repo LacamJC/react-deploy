@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+$ytb_1: #FF0000 ;
+$ytb_2: #282828 ;
+$ytb_3: white ;
+
+$ins_1:#405DE6;
+$ins_2:#F56040;
+$ins_3:#FFBC00;
+
+$git_1: #24292e ;
+$git_2: #1f1f1f ;
+$git_3: #2dba4e ;
+
+$fcb_1:#3b5998;
+$fcb_2:#8b9dc3;
+$fcb_3:#ffffff;
+
+$zap_1:#075E54;
+$zap_2:#128C7E ;
+$zap_3:#25D366;
+
+.youtube
+{
+    font-family: "Roboto Condensed", sans-serif;
+    .card__header_img
+    {
+        filter: drop-shadow(0px 0px 2px $ytb_1);
+    }
+
+    background-color: $ytb_2;
+    border: 1px solid $ytb_2;
+
+    .card__body_title{
+        color: $ytb_1;
+    }
+
+    .card__body_text{
+        color: $ytb_3;
+    }
+
+    .card__footer_btn
+    {
+        background-color: $ytb_1;
+        // color: $ytb_3;
+        color: white !important; 
+        border: 1px solid $ytb_2;
+
+        &{
+            border: 1px solid $ytb_1;
+            box-shadow: 0px 0px 5px $ytb_2;
+        }
+    }
+    
+}
+
+
+
+.facebook
+{
+    background-color: $fcb_2;
+    border: 1px solid $fcb_2;
+
+    .card__body_title{
+        color: $fcb_3;
+        font-family: "Poppins", 'cursive';
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .card__body_text{
+        color: $fcb_3;
+        font-family: "Poppins", 'cursive';
+        font-weight: 400;
+        font-style: normal;
+      
+    }
+
+    .card__footer_btn
+    {
+        background-color: $fcb_1;
+        color: $fcb_3 !important;
+        border: 1px solid $fcb_2 !important;
+        font-family: "Poppins", 'cursive';
+        font-weight: 600;
+        font-style: normal;
+
+        &{
+            border: 1px solid $fcb_1;
+        }
+    }
+    
+}
+
+
+
+
+
+.github
+{
+    background-color: $git_2;
+    border: 1px solid $git_2;
+    font-family: "Roboto Condensed", sans-serif;
+
+    .card__body_title
+    {
+        color: white;
+    }
+
+    .card__header_img
+    {
+        filter: drop-shadow(0px 0px 5px $git_3);
+    }
+
+
+    .card__body_text{
+        color: $git_3;
+    }
+
+    .card__footer_btn
+    {
+        background-color: $git_1;
+        color: $git_3 !important;
+        border: 1px solid $git_2 !important;
+
+        &{
+            border: 1px solid $git_1;
+            box-shadow: 0px 0px 5px $git_3;
+        }
+    }
+    
+}
+
+
+
+
+.instagram
+{
+    background-image: linear-gradient(45deg, $ins_2, $ins_1);
+    border: 1px solid transparent;
+
+    .card__body_title
+    {
+        color: white;
+        font-family: "Poppins", 'cursive';
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .card__body_text{
+        color: white;
+        font-family: "Poppins", 'cursive';
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .card__footer_btn
+    {
+        background-color: $ins_2;
+        color: white !important;
+        border: 1px solid $ins_2 !important;
+        font-family: "Poppins", 'cursive';
+        font-weight: 600;
+        font-style: normal;
+
+        &{
+            border: 1px solid $ins_2;
+        }
+    }
+    
+}
+
+
+$link_1:#0A66C2;
+$link_2:#ffffff;
+
+
+.linkedin
+{
+    background-color: $link_1;
+    border: 1px solid $link_1;
+    font-family: "Source Code Pro", monospace;
+
+    .card__body_title
+    {
+        color: white;
+    }
+
+    .card__body_text{
+        color: $link_2;
+        font-family: mir;
+    }
+
+    .card__footer_btn
+    {
+        background-color: $link_1;
+        color: $link_2;
+        border: 1px solid white !important;
+
+        &{
+            border: 1px solid $link_1;
+            background-color: $link_2;
+            color: $link_1;
+        }
+    }
+    
+}
+
+
+
+
+
+.whatsapp
+{
+    background-color: $zap_2;
+    border: 2px solid $zap_2;
+
+    font-family: Helvetica, 'cursive';
+    .card__body_title
+    {
+        color: white;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .card__body_text{
+        color: white;
+        font-family: Helvetica, 'cursive';
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .card__footer_btn
+    {
+        background-color: $zap_1;
+        color: white !important;
+        border: 1px solid $zap_2 !important;
+
+        &{
+            border: 1px solid $zap_1;
+            color: $zap_3;
+        }
+    }
+    
+}

@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+.youtube {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #282828;
+  border: 1px solid #282828;
+}
+.youtube .card__header_img {
+  filter: drop-shadow(0px 0px 2px #FF0000);
+}
+.youtube .card__body_title {
+  color: #FF0000;
+}
+.youtube .card__body_text {
+  color: white;
+}
+.youtube .card__footer_btn {
+  background-color: #FF0000;
+  color: white !important;
+  border: 1px solid #282828;
+}
+.youtube .card__footer_btn {
+  border: 1px solid #FF0000;
+  box-shadow: 0px 0px 5px #282828;
+}
+
+.facebook {
+  background-color: #8b9dc3;
+  border: 1px solid #8b9dc3;
+}
+.facebook .card__body_title {
+  color: #ffffff;
+  font-family: "Poppins", "cursive";
+  font-weight: 700;
+  font-style: normal;
+}
+.facebook .card__body_text {
+  color: #ffffff;
+  font-family: "Poppins", "cursive";
+  font-weight: 400;
+  font-style: normal;
+}
+.facebook .card__footer_btn {
+  background-color: #3b5998;
+  color: #ffffff !important;
+  border: 1px solid #8b9dc3 !important;
+  font-family: "Poppins", "cursive";
+  font-weight: 600;
+  font-style: normal;
+}
+.facebook .card__footer_btn {
+  border: 1px solid #3b5998;
+}
+
+.github {
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.github .card__body_title {
+  color: white;
+}
+.github .card__header_img {
+  filter: drop-shadow(0px 0px 5px #2dba4e);
+}
+.github .card__body_text {
+  color: #2dba4e;
+}
+.github .card__footer_btn {
+  background-color: #24292e;
+  color: #2dba4e !important;
+  border: 1px solid #1f1f1f !important;
+}
+.github .card__footer_btn {
+  border: 1px solid #24292e;
+  box-shadow: 0px 0px 5px #2dba4e;
+}
+
+.instagram {
+  background-image: linear-gradient(45deg, #F56040, #405DE6);
+  border: 1px solid transparent;
+}
+.instagram .card__body_title {
+  color: white;
+  font-family: "Poppins", "cursive";
+  font-weight: 700;
+  font-style: normal;
+}
+.instagram .card__body_text {
+  color: white;
+  font-family: "Poppins", "cursive";
+  font-weight: 400;
+  font-style: normal;
+}
+.instagram .card__footer_btn {
+  background-color: #F56040;
+  color: white !important;
+  border: 1px solid #F56040 !important;
+  font-family: "Poppins", "cursive";
+  font-weight: 600;
+  font-style: normal;
+}
+.instagram .card__footer_btn {
+  border: 1px solid #F56040;
+}
+
+.linkedin {
+  background-color: #0A66C2;
+  border: 1px solid #0A66C2;
+  font-family: "Source Code Pro", monospace;
+}
+.linkedin .card__body_title {
+  color: white;
+}
+.linkedin .card__body_text {
+  color: #ffffff;
+  font-family: mir;
+}
+.linkedin .card__footer_btn {
+  background-color: #0A66C2;
+  color: #ffffff;
+  border: 1px solid white !important;
+}
+.linkedin .card__footer_btn {
+  border: 1px solid #0A66C2;
+  background-color: #ffffff;
+  color: #0A66C2;
+}
+
+.whatsapp {
+  background-color: #128C7E;
+  border: 2px solid #128C7E;
+  font-family: Helvetica, "cursive";
+}
+.whatsapp .card__body_title {
+  color: white;
+  font-weight: 700;
+  font-style: normal;
+}
+.whatsapp .card__body_text {
+  color: white;
+  font-family: Helvetica, "cursive";
+  font-weight: 400;
+  font-style: normal;
+}
+.whatsapp .card__footer_btn {
+  background-color: #075E54;
+  color: white !important;
+  border: 1px solid #128C7E !important;
+}
+.whatsapp .card__footer_btn {
+  border: 1px solid #075E54;
+  color: #25D366;
+}
+
+.card {
+  width: 310px;
+  height: 400px;
+  margin: 20px 20px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.349);
+  transform: translateX(5px) translateY(-5px);
+  cursor: default;
+}
+
+.card .card__header {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .card__header .card__header_img {
+  width: 70%;
+  height: 70%;
+}
+
+.card .card__body {
+  width: 100%;
+  height: 50%;
+}
+
+.card .card__body .card__body_title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card .card__body .card__body_text {
+  font-size: 1rem;
+  padding: 5px 15px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+.card .card__footer {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .card__footer .card__footer_a {
+  text-decoration: none;
+}
+
+.card .card__footer .card__footer_btn {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  border: 1px solid black;
+  transition: all 0.5s ease;
+}
+
+.card .card__footer .card__footer_btn:hover {
+  box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.149) inset;
+  transform: translateX(1px) translateY(-1px);
+}
+
+.card .card__footer .card__footer_btn .line {
+  border: 1px solid transparent;
+  width: 1%;
+  transition: all 0.5s ease;
+}/*# sourceMappingURL=Card.module.css.map */

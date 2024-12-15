@@ -1,0 +1,8 @@
+.lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=Lista.module.css.map */

@@ -1,0 +1,85 @@
+@import 'CardColor';
+
+.card {
+    width: 310px;
+    height: 400px;
+    margin: 20px 20px;
+    // border: 2px solid black;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    
+    // box-shadow: 1px 1px 8px 2px rgba(156,156,156,0.21);
+    // -webkit-box-shadow: 1px 1px 8px 2px rgba(156,156,156,0.21);
+    // -moz-box-shadow: 1px 1px 8px 2px rgba(156,156,156,0.21);
+    
+  }
+  
+  .card:hover {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.349);
+    transform: translateX(5px) translateY(-5px);
+    cursor: default;
+  }
+
+ 
+  .card .card__header {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card .card__header .card__header_img {
+    width: 70%;
+    height: 70%;
+    // background-color: red;
+  }
+  .card .card__body {
+    width: 100%;
+    height: 50%;
+  }
+  .card .card__body .card__body_title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .card .card__body .card__body_text {
+    font-size: 1rem;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  .card .card__footer {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card .card__footer .card__footer_a {
+    text-decoration: none;
+  }
+  .card .card__footer .card__footer_btn {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    transition: all 0.5s ease;
+  }
+  .card .card__footer .card__footer_btn:hover {
+    box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.149) inset;
+    
+    transform: translateX(1px) translateY(-1px);
+  }
+  .card .card__footer .card__footer_btn .line {
+    border: 1px solid transparent;
+    width: 1%;
+    transition: all 0.5s ease;
+  }
+
